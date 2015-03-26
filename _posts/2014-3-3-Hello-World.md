@@ -1,10 +1,12 @@
 ---
 layout: post
-title: You're up and running!
+title: Welcome to my development  blog
+published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+##Welcome
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Hi, my name is Erik Cox. I am a professional Web Developer and Software Engineering student. I am currently learning the in's and out's of Android development. I figured the best way to learn is to teach others as I go. 
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+I hope you find these posts informative.
+

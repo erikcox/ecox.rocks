@@ -65,6 +65,9 @@ sass:
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jemoji # provides support for emoji within Jekyll posts and pages
+  - jekyll-mentions # provides support for @mentions within Jekyll posts and pages
+  - jekyll-redirect-from # redirects visitors to an updated URL when Jekyll post or page filenames change
 
 # Exclude these files from your production _site
 exclude:

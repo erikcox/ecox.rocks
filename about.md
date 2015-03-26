@@ -2,14 +2,15 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+## San Francisco Bay local with a love for technology
 
-### More Information
+Born and raised in the San Francisco Bay Area, I am an experienced Web Developer with a background in Software Engineering. I have experience with front end and back end development, SQL, data analysis, and Unix.
 
-A place to include any other types of information that you'd like to include about yourself.
+My passions are coding, photography, coffee, travel, wearables, and Android.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[erikbcox@gmail.com](mailto:erikbcox@gmail.com)

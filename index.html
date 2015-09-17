@@ -1,6 +1,8 @@
 ---
 layout: default
+published: true
 ---
+
 
 <div class="posts">
   {% for post in site.posts %}
@@ -11,8 +13,10 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
+		<div class="github-card" data-github="erikcox" data-width="400" data-height="" data-theme="medium"></div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

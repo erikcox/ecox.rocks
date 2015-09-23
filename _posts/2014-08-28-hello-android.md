@@ -71,5 +71,12 @@ This example uses _LinearLayout_. This type of layout is useful for stacking vie
 	…
 </resources>
 ```
-Now call the _greeting_ string in _main.xml_:
+Now call the _greeting_ string in _main.xml_
 `android:text="@String/greeting"`
+
+Similarly you can save colors into _colors.xml_
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<color name="red">0XFF0000</color>
+```
+

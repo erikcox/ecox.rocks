@@ -25,6 +25,7 @@ Start up Android studio and create a new project.
     
 An Activity in Android is a presentation layer for the UI.
 
+
 ```
 DemoActivity.java
 package rocks.ecox.examples

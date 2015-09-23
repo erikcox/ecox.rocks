@@ -24,6 +24,7 @@ Start up Android studio and create a new project.
     File > New Project > Android Project
     
 An Activity in Android is a presentation layer for the UI.
+
 ```
 DemoActivity.java
 package rocks.ecox.examples
@@ -40,12 +41,12 @@ public class DemoApp extends Activity
 	}
 )
 ```
+
 Methods that start with _on_ are automatically invoked by Android. We don't need to call them manually. Ex: _onCreate_, _onClick_.
 
 Layouts are XML files that are used to build visual compentents in Android.
+
 ```
-<!-- Auto-generated XML code (main.xml) -->
-<?xml version="1.0" encoding="utf-8" ?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:orientation="vertical"
 android:layout_width="fill_parent"
@@ -66,6 +67,7 @@ This example uses _LinearLayout_. This type of layout is useful for stacking vie
 `android:layout_height="wrap_content"` Gives just enough room to display the line (height-wise in this case).
 
 `android:text="Hello Android"` You should not hard-code data like this. It should go into _res/values dir/strings.xml_.
+
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
@@ -73,15 +75,19 @@ This example uses _LinearLayout_. This type of layout is useful for stacking vie
 	…
 </resources>
 ```
+
 Now call the _greeting_ string in _main.xml_
 `android:text="@String/greeting"`
 
 Similarly you can save colors into _colors.xml_
+
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 <color name="red">0XFF0000</color>
 ```
+
 ### Running the project
+
 Before you get too far in your project you might want to test it. If this is your first time in Android Studio, you'll need to set up an AVD, which stands for Android Virtual Device. Click `Tools > Android > AVD Manager`. You can create as many virtual devices as you'd like, but keep in mind they do take up a lot of space and they tend to run slow.
 Click `Create Virtual Device > Phone > Nexus 5` (or whatever type of device you want to test on) then click `Next`. Here you can name the device and set some default settings. Most importantly, you can set the API level of the device. Click `Finish` When you are done.
 

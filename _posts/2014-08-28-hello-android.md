@@ -20,3 +20,22 @@ You can test these with `javac -v` and `adb -h` (Android debugging bridge)
 Start up Android studio and create a new project. 
 
     File > New Project > Android Project
+    
+An Activity in Android is a presentation layer for the UI.
+```
+DemoActivity.java
+package rocks.ecox.examples
+import android.app.Activity;
+import android.os.Bundle;
+public class DemoApp extends Activity
+(
+	/** called when activity is first created. */
+	@override
+	public void onCreate(Bundle b)
+	{
+		super.onCreate(b); // Call the super class version of onCreate
+		setContentView(R.layout.main);  // Setup the view (entire screen of phone) to show the content of main.xml
+	}
+)
+```
+Methods that start with _on_ are automatically invoked by Android. We don't need to call them manually. Ex: _onCreate_, _onClick_.

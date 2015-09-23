@@ -39,3 +39,37 @@ public class DemoApp extends Activity
 )
 ```
 Methods that start with _on_ are automatically invoked by Android. We don't need to call them manually. Ex: _onCreate_, _onClick_.
+
+Layouts are XML files that are used to build visual compentents in Android.
+```
+<!-- Auto-generated XML code (main.xml) -->
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+	<TextView android: id="@+id/text1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Hello Android"
+	android: color="@color/red" 
+	/>
+</LinearLayout>
+```
+This example uses _LinearLayout_. This type of layout is useful for stacking views vertically, horizontally, or side-by-side.
+
+`android:layout_width="fill_parent"` Takes up the entire width of the screen.
+`android:layout_height="fill_parent"` Takes up the entire height of the screen.
+`android:layout_height="wrap_content"` Gives just enough room to display the line (height-wise in this case).
+
+`android:text="Hello Android"` You should not hard-code data like this. It should go into _res/values dir/strings.xml_.
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<string name="greeting">Hello Android</string>
+	…
+</resources>
+```
+Now call the _greeting_ string in _main.xml_:
+`android:text="@String/greeting"`

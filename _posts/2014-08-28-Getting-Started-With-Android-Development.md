@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-To get started you'll need to install Android Studio. You can get it along with instructions at the [Android developer site](https://developer.android.com/sdk/installing/index.html). This will also download the Android SDK. Make sure that you have plenty of space. Over time installing different version of the Android SDK can fill up hard drive space quickly. If you don't have Java installed, make sure to [grab that](http://www.oracle.com/technetwork/java/javase/downloads/index.html) as well. JDK 8.x will do.
+To get started, you'll need to install Android Studio. You can get it along with instructions at the [Android developer site](https://developer.android.com/sdk/installing/index.html). This will also download the Android SDK. Make sure that you have plenty of space. Over time, installing different versions of the Android SDK can fill up hard drive space quickly. If you don't have Java installed, make sure to [grab that](http://www.oracle.com/technetwork/java/javase/downloads/index.html) as well. JDK 8.x will do.
 
 If you need to update the SDK files you can do so in Android Studio under
 
@@ -52,7 +52,7 @@ public class DemoApp extends Activity
 
 Methods that start with _on_ are automatically invoked by Android. We don't need to call them manually. Ex: _onCreate_, _onClick_.
 
-Layouts are XML files that are used to build visual compentents in Android.
+Layouts are XML files that are used to build visual components in Android.
 
 {% highlight xml %}
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -79,7 +79,7 @@ You should not hard-code data like this.
 
     android:text="Hello Android"
 
-Instead it should be saved as a variable in _res/values dir/strings.xml_.
+Instead, it should be saved as a variable in _res/values dir/strings.xml_.
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -93,7 +93,7 @@ Now that it is defined, you can call the _greeting_ string in _main.xml_
 
     android:text="@String/greeting"
 
-Similarly you can save colors into _colors.xml_
+Similarly, you can save colors into _colors.xml_
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>

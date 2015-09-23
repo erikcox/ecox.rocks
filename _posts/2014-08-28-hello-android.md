@@ -1,6 +1,8 @@
 ---
 published: true
+layout: post
 ---
+
 
 
 ## Getting started with Android development

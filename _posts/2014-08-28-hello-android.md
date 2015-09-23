@@ -94,3 +94,4 @@ Click `Create Virtual Device > Phone > Nexus 5` (or whatever type of device you 
 
 To run your application click on `Run > Run`. This will give you a _Run_ dialog. There might be multiple options here if you have more than one project open. Click on the name of the app you want to run, then after a few seconds Android Studio _should_ ask you to choose a device. Select the device you want to use and click _OK_. If all goes well, your AVD should start up with your app running. If not, you'll have to take a look at the console in Android Studio for any error messages and debug the issue.
 
+{% include twitter_plug.html %}

@@ -14,4 +14,4 @@ My passions are coding, photography, coffee, travel, wearables, and Android.
 
 ### Contact me
 
-[@erikerik](https://twitter.com/erikerik)
+[@ erikerik](https://twitter.com/erikerik)

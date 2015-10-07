@@ -1,6 +1,8 @@
 ---
 published: true
+layout: post
 ---
+
 
 
 In this program we are going to print a few lines of text in different colors.

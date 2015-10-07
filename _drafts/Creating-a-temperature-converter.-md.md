@@ -1,4 +1,6 @@
 ---
 layout: post
-title: Creating-a-temperature-converter. md
+title: "2014-09-11-Creating-a-temperature-converter. md"
+published: true
 ---
+

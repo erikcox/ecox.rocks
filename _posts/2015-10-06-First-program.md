@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "2014-08-28-First-program"
+title: "2014-08-29-First-program"
 published: true
 ---
+
 
 In this program we are going to print a few lines of text in different colors.
 

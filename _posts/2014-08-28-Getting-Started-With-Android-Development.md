@@ -10,13 +10,13 @@ If you need to update the SDK files you can do so in Android Studio under
 
     Tools > Android > SDK Manager
 
-Alternatively in the command line you can type:
+Alternatively, in the command line you can type:
 
     $ android update sdk --no-ui
 
-If you have trouble finding a command in Android Studio you can use the _Find Action_ search box. Hit `Ctrl or Cmd +Shift+A`, then type what you're looking for.
+To quickly find a shortcut or command in Android Studio you can use the _Find Action_ search box. Hit `Ctrl or Cmd +Shift+A`, then type what you're looking for.
 
-If you are having trouble, check your environment variables (.bash_profile or .bashrc in Linux).
+If you are having trouble setting up Java or the SDK, check your environment variables (.bash_profile or .bashrc in Linux).
 If they don't exist, add:
 
     export JAVA_HOME=/usr/local/Java_1.8.1/
@@ -30,6 +30,8 @@ You can test these with `javac -v` and `adb -h` (Android debugging bridge)
 Start up Android studio and create a new project.
 
     File > New Project > Android Project
+
+Give your project a name and choose blank activity. 
 
 An Activity in Android is a presentation layer for the UI.
 

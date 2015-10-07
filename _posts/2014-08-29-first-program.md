@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 In this program we are going to print a few lines of text in different colors.
 

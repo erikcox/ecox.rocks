@@ -14,22 +14,22 @@ Finally we'll tie everything together and do the logic for randomizing the month
 
 Create a file called `string_array.xml` inside of `res > values`. This file will contain a `resources` tag that holds our `string-array` and each month will be stored in an `item` tag.
 
-`<resources>
-    <string-array name="months">
-        <item>January</item>
-        <item>February</item>
-        <item>March</item>
-        <item>April</item>
-        <item>May</item>
-        <item>June</item>
-        <item>July</item>
-        <item>August</item>
-        <item>September</item>
-        <item>October</item>
-        <item>November</item>
-        <item>December</item>
-    </string-array>
-</resources>`
+    <resources>
+        <string-array name="months">
+            <item>January</item>
+            <item>February</item>
+            <item>March</item>
+            <item>April</item>
+            <item>May</item>
+            <item>June</item>
+            <item>July</item>
+            <item>August</item>
+            <item>September</item>
+            <item>October</item>
+            <item>November</item>
+            <item>December</item>
+        </string-array>
+    </resources>
 
 ## strings.xml
 
@@ -47,59 +47,60 @@ In the `res > values > strings.xml` lets set the text label for the button to ma
 
 The layout will be pretty straightforward. We are going to use a TextView as a container to store the colored month text. The button will pull it's label text from `strings.xml` and will reference an `onClick` method that we'll write in our  activity.
 
-`<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-    <TextView
-        android:id = "@+id/text1"
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center_vertical"
-        android:textSize="144px"
-        android:text="@array/months"    />
-    <Button
-        android:id="@+id/button1"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="@string/button_text"
-        android:onClick="pushMe" />
-</LinearLayout>`
+        android:layout_height="fill_parent">
+        <TextView
+            android:id = "@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:textSize="144px"
+            android:text="@array/months"    />
+        <Button
+            android:id="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/button_text"
+            android:onClick="pushMe" />
+    </LinearLayout>
 
 ## RandomMonthActivity.java
 
-Explaination of activity. We are using:
-android.graphics.color
-color.rgb(int r, int g, int b) // static method, values 0-255
-Math.random()
+In our main activity, we'll set the logic for the random month, color, and button behavior. For the color we'll be using `android.graphics.color`.
 
-`public class RandomMonthActivity extends Activity
-{
-    Button btn;
+For example, `color.rgb(int r, int g, int b)` which is a static method that uses values 0-255 for colors.
 
-    @Override
-    protected void onCreate(Bundle b)
+To choose the colors and month we'll use `Math.random()`.
+
+    public class RandomMonthActivity extends Activity
     {
-        super.onCreate(b);
-        setContentView(R.layout.activity_random_month);
-        btn = (Button) findViewById(R.id.button1); // Create button
-        final String months[] = getResources().getStringArray(R.array.months);
-        final TextView tv =(TextView)findViewById(R.id.text1);
-        tv.setText("");
+        Button btn;    
 
-        btn.setOnClickListener(new View.OnClickListener()
+        @Override
+        protected void onCreate(Bundle b)
         {
-            public void onClick(View v)
+            super.onCreate(b);
+            setContentView(R.layout.activity_random_month);
+            btn = (Button) findViewById(R.id.button1); // Create button
+            final String months[] = getResources().getStringArray(R.array.months);
+            final TextView tv =(TextView)findViewById(R.id.text1);
+            tv.setText("");    
+
+            btn.setOnClickListener(new View.OnClickListener()
             {
-                int random = (int) (Math.random() * months.length);
-                Random myColor = new Random();
-                tv.setTextColor(Color.rgb(myColor.nextInt(255), myColor.nextInt(255), myColor.nextInt(255))); // randomly pick a color
-                tv.setText(months[random]); // set a random month
-            }
-        });
+                public void onClick(View v)
+                {
+                    int random = (int) (Math.random() * months.length);
+                    Random myColor = new Random();
+                    tv.setTextColor(Color.rgb(myColor.nextInt(255), myColor.nextInt(255), myColor.nextInt(255))); // randomly pick a color
+                    tv.setText(months[random]); // set a random month
+                }
+            });
+        }
     }
-}`
 
 {% include twitter_plug.html %}

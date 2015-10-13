@@ -16,7 +16,7 @@ In this program we are going to print a few lines of text in different colors.
 In order to do this, start a new project with a blank activity in Android Studio. We discussed how to setup Android Studio and create a new project in the [last post]({% post_url 2014-08-28-Getting-Started-With-Android-Development %}).
 
 We will save the four lines of text in `res > values > strings.xml` and give each string an id, so that we can reference it in our layout file.
- > 
+ >
     <?xml version="1.0" encoding="utf-8"?>
     <resources>
         <string name="app_name">FirstApp</string>
@@ -76,5 +76,7 @@ Finally, lets set up four TextView's to display our strings in the four colors w
 
 
 Now click Run to build your project. You have just built your first app.
+
+![Android colors](/images/android_colors.jpg)
 
 {% include twitter_plug.html %}

@@ -9,6 +9,6 @@ Hi, my name is Erik Cox. I am a professional Web Developer and Software Engineer
 
 I hope you find these posts informative.
 
-->![Bugdroid](/images/android.jpg)<-
+![Bugdroid](/images/android.jpg)
 
 {% include twitter_plug.html %}

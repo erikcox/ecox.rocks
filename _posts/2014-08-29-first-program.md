@@ -2,7 +2,7 @@
 published: true
 layout: post
 ---
-
+![Android colors](/images/android_colors.jpg)
 
 
 In this program we are going to print a few lines of text in different colors.
@@ -76,7 +76,5 @@ Finally, lets set up four TextView's to display our strings in the four colors w
 
 
 Now click Run to build your project. You have just built your first app.
-
-![Android colors](/images/android_colors.jpg)
 
 {% include twitter_plug.html %}

@@ -12,12 +12,12 @@ Born and raised in the San Francisco Bay Area, I am an experienced Web Developer
 My passions are coding, photography, coffee, travel, wearables,VR and Android.
 
 ### Work Experience
-Current: Full-time student, senior year.
-GetBetz: Lead Engineer & Co-Founder 10/2014 - 3/2015
-Data Analyst: Symphony Health Solutions 01/2013 - 5/2014
-Web Developer: AlphaDetail 02/2008 - 1/2013
-Flash Engineer: AlphaDetail 08/2005 - 2/2008
-Web Developer: IBM 2/2001 - 7/2005
+* **Current**: *Full-time student, senior year*.
+* **Lead Engineer & Co-Founder**: *GetBetz <small>10/2014 - 03/2015</small>*
+* **Data Analyst**: *Symphony Health Solutions <small>01/2013 - 5/2014</small>*
+* **Web Developer**: *AlphaDetail <small>02/2008 - 1/2013</small>*
+* **Flash Engineer**: *AlphaDetail <small>08/2005 - 2/2008</small>*
+* **Web Developer**: *IBM <small>2/2001 - 7/2005</small>*
 
 ### Resume
 [My resume](/_includes/Erik Cox Resume.pdf)

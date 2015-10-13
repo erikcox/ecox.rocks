@@ -19,7 +19,7 @@ My passions are coding, photography, coffee, travel, wearables,VR and Android.
 * **Flash Engineer**: *AlphaDetail <small>(08/2005 - 2/2008)</small>*
 * **Web Developer**: *IBM <small>(2/2001 - 7/2005)</small>*
 
-### [My resume](/../_assets/Erik_Cox_Resume.pdf)
+### [My resume]({{site.baseurl}}Erik_Cox_Resume.pdf)
 
 ### Contact me
 

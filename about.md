@@ -28,5 +28,3 @@ My passions are coding, photography, coffee, travel, wearables,VR and Android.
 [erikbcox@gmail.com](mailto:erikbcox@gmail.com)
 
 [linkedin.com/in/erikbcox](https://www.linkedin.com/in/erikbcox)
-
-Phone: (650) 425-3645

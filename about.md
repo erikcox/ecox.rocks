@@ -12,12 +12,12 @@ Born and raised in the San Francisco Bay Area, I am an experienced full stack de
 My passions are coding, photography, coffee, travel, wearables,VR and Android.
 
 ### Work Experience
-* **Current**: *Full-time student, senior year <small>(through 12/2015)</small>*.
-* **Lead Engineer & Co-Founder**: *GetBetz <small>(10/2014 - 03/2015)</small>*
-* **Data Engineer**: *Symphony Health Solutions <small>(01/2013 - 5/2014)</small>*
-* **Web Developer**: *AlphaDetail <small>(02/2008 - 1/2013)</small>*
-* **Flash Engineer**: *AlphaDetail <small>(08/2005 - 2/2008)</small>*
-* **Web Developer**: *IBM <small>(2/2001 - 7/2005)</small>*
+* **Current**: *[Notre Dame de Namur](http://www.ndnu.edu), Full-time student, senior year <small>(through 12/2015)</small>*.
+* **Lead Engineer & Co-Founder**: *[GetBetz](https://www.f6s.com/getbetz) <small>(10/2014 - 03/2015)</small>*
+* **Data Engineer**: *[AlphaImpact Rx](http://www.alphaimpactrx.com/) <small>(01/2013 - 5/2014)</small>*
+* **Web Developer**: *[AlphaImpact Rx](http://www.alphaimpactrx.com/) <small>(02/2008 - 1/2013)</small>*
+* **Flash Engineer**: *[AlphaImpact Rx](http://www.alphaimpactrx.com/) <small>(08/2005 - 2/2008)</small>*
+* **Web Developer**: *[IBM](http://www.ibm.com) <small>(2/2001 - 7/2005)</small>*
 
 ### [My resume]({{site.baseurl}}/Erik_Cox_Resume.pdf)
 

@@ -5,9 +5,9 @@ permalink: /about/
 published: true
 ---
 
-## I am a Web Developer and a senior Software Engineering student living in San Francisco, seeking a new grad position in December 2015.
+## I am a full stack developer and a senior software engineering student, living in San Francisco, seeking a development position in December 2015.
 
-Born and raised in the San Francisco Bay Area, I am an experienced Web Developer and Software Engineering student at Notre Dame de Namur University. I have experience with front end and back end web development, SQL, data modeling & ETL design, Android, and Linux.
+Born and raised in the San Francisco Bay Area, I am an experienced full stack developer and software engineering student at Notre Dame de Namur University. I have experience with front end and back end web development, SQL, data modeling & ETL design, Android, and Linux.
 
 My passions are coding, photography, coffee, travel, wearables,VR and Android.
 

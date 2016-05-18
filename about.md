@@ -15,7 +15,7 @@ My passions are coding, photography, coffee, travel, wearables, VR, and Android.
 
 ### Work Experience
 * **Current**: *Independent Full Stack Developer*
-* **Student**: *[Notre Dame de Namur](http://www.ndnu.edu), Finished BS in Software Engineering <small>(06/2016)</small>*.
+* **Student**: *[Notre Dame de Namur](http://www.ndnu.edu), Finished BS in Software Engineering <small>(05/2016)</small>*.
 * **Lead Engineer & Co-Founder**: *[GetBetz](https://www.f6s.com/getbetz) <small>(10/2014 - 03/2015)</small>*
 * **Data Engineer**: *[AlphaImpact Rx](http://www.alphaimpactrx.com/) <small>(01/2013 - 5/2014)</small>*
 * **Web Developer**: *[AlphaImpact Rx](http://www.alphaimpactrx.com/) <small>(02/2008 - 1/2013)</small>*

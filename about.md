@@ -16,7 +16,7 @@ Born and raised in the San Francisco Bay Area, I am an experienced full-stack de
 ### Work Experience
 * **Current**: *Independent Full Stack Developer*
 * **Student**: *[Notre Dame de Namur](http://www.ndnu.edu), Finished BS in Software Engineering <small>(June 2016)</small>*.
-* **Lead Engineer & Co-Founder**: *[GetBetz](https://www.f6s.com/getbetz) <small>(Oct. 2014 - March 2015)</small>*
+* **Technical Lead**: *[GetBetz](https://www.f6s.com/getbetz) <small>(Oct. 2014 - March 2015)</small>*
 * **Senior Manager, Field Operations**: *[Symphony Health Solutions](http://www.alphaimpadetail.com/) <small>(Jan. 2013 - May 2014)</small>*
 * **Web Developer**: *[AlphaDetail](http://www.alphaimpadetail.com/) <small>(Feb. 2008 - Jan. 2013)</small>*
 * **Flash Engineer**: *[AlphaDetail](http://http://symphonyhealth.com/) <small>(Aug. 2005 - Feb. 2008)</small>*

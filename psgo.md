@@ -37,18 +37,18 @@ Contributing
 Want to contribute? Just submit a pull request.
 
 1) Grab latest source
-```
+<pre>
 git clone https://github.com/erikcox/PS-GO.git
-```
+</pre>
 
 2) Enable Chrome Extension in your Chrome install
-```
+<pre>
 Open Chrome.
 Navigate to Settings... Tools... Extensions.
 Click + on "Developer mode"
 Click "Load unpacked extensions..."
 Navigate to directory you installed PS-Go and click Open.
-```
+</pre>
 
 
 Authors

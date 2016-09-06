@@ -5,7 +5,7 @@ permalink: /psgo/
 published: true
 ---
 
-![PS GO](images/psgo.png)
+![PS GO](/images/psgo.png)
 ================================
 The Pumpkin Spice Filter for Google Chrome that removes pumpkin spice from the Internet.
 
@@ -22,9 +22,9 @@ Features
 * Identifies sections of the page containing pumpkin spice and removes them from the page.
 * Sensitivity settings to customize the aggressiveness of the filter - remove single references, chunks or the entire page.
 
-![extension](images/extension.png)
+![extension](/images/extension.png)
 
-![options](images/options.png)
+![options](/images/options.png)
 
 Getting Started
 --------------------------

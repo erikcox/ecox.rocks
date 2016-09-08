@@ -9,7 +9,7 @@ published: true
 ================================
 The Pumpkin Spice Filter for Google Chrome that removes pumpkin spice from the Internet.
 
-<iframe src ="http://c.yvoschaap.com/producthunt/counter.html#href=https://www.producthunt.com/tech/pumkin-spice-filter&layout=wide"></iframe>
+<iframe src="http://c.yvoschaap.com/producthunt/counter.html#href=http%3A%2F%2Fwww.producthunt.com%2Fr%2F753d28dbfb3698%2F75227&layout=wide" width="120" height="25" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 
 Overview
 --------------------------

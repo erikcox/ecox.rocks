@@ -1,6 +1,7 @@
 ---
-published: true
 layout: post
+title: Getting Started With Android Development
+published: true
 ---
 ![Android phone](/images/android_desk.jpg)
 
@@ -11,26 +12,26 @@ If you need to update the SDK files you can do so in Android Studio under
     Tools > Android > SDK Manager
 
 Alternatively, in the command line you can type:
-
+{% highlight xml %}
     $ android update sdk --no-ui
-
+{% endhighlight %}
 To quickly find a shortcut or command in Android Studio you can use the _Find Action_ search box. Hit `Ctrl or Cmd +Shift+A`, then type what you're looking for.
 
 If you are having trouble setting up Java or the SDK, check your environment variables (.bash_profile or .bashrc in Linux).
 If they don't exist, add:
-
+{% highlight xml %}
     export JAVA_HOME=/usr/local/Java_1.8.1/
     export ANDROID_HOME=/usr/local/android_studio/sdk
     export PATH=$PATH:$JAVA_HOME:$JAVA_HOME/bin
-
+{% endhighlight %}
 You can test these with `javac -v` and `adb -h` (Android debugging bridge)
 
 ## Getting started with Android Studio
 
 Start up Android studio and create a new project.
-
+{% highlight xml %}
     File > New Project > Android Project
-
+{% endhighlight %}
 Give your project a name and choose blank activity.
 
 An Activity in Android is a presentation layer for the UI.
@@ -60,8 +61,7 @@ Layouts are XML files that are used to build visual components in Android.
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:orientation="vertical"
 android:layout_width="fill_parent"
-android:layout_height="fill_parent"
->
+android:layout_height="fill_parent">
 	<TextView android: id="@+id/text1"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -78,29 +78,28 @@ This example uses _LinearLayout_. This type of layout is useful for stacking vie
 `android:layout_height="wrap_content"` Gives just enough room to display the line (height-wise in this case).
 
 You should not hard-code data like this.
-
+{% highlight xml %}
     android:text="Hello Android"
-
+{% endhighlight %}
 Instead, it should be saved as a variable in _res/values dir/strings.xml_.
 
-```
+{% highlight xml %}
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
 	<string name="greeting">Hello Android</string>
 	…
 </resources>
-```
-
+{% endhighlight %}
 Now that it is defined, you can call the _greeting_ string in _main.xml_
-
+{% highlight xml %}
     android:text="@String/greeting"
-
+{% endhighlight %}
 Similarly, you can save colors into _colors.xml_
 
-```
+{% highlight xml %}
 <?xml version="1.0" encoding="utf-8" ?>
 <color name="red">0XFF0000</color>
-```
+{% endhighlight %}
 
 ## Running the project
 

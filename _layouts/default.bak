@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
     {% include meta.html %}
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-      {% include css.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/favicon.ico?">
+    <link rel="apple-touch-icon" href="{{site.url}}/apple-touch-icon.png">
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-<<<<<<< HEAD
   <body>
     <div class="wrapper-masthead">
       <div class="container">
@@ -21,7 +31,6 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/psgo">PS GO</a>
           </nav>
         </header>
       </div>
@@ -39,12 +48,6 @@
       </div>
     </div>
 
-=======
-  <body class="home overflow-hidden">
-    {% include header.html %}
-    {% include main.html %}
-    {% include js.html %}
->>>>>>> feature/md_theme
     {% include analytics.html %}
     {% include fb.html %}
     {% include linkedin.html %}

@@ -17,8 +17,6 @@ The Pumpkin Spice Filter for Google Chrome that removes pumpkin spice from the I
 
 Featured on [Product Hunt](https://www.producthunt.com/tech/pumkin-spice-filter)
 
->>>>>>> feature/md_theme
-
 Overview
 --------------------------
 It's that time of year again. Want to remove all reference of pumpkin spice from the Internet? Install this extension.
@@ -72,4 +70,3 @@ This project is licensed under the terms of the MIT license.
 Acknowledgments
 -------------------------
 * Forked from [Rob Spectre's Trump Filter](https://github.com/RobSpectre/Trump-Filter).
-

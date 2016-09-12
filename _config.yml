@@ -5,8 +5,8 @@ logo: http://i.imgur.com/XwHr5HA.jpg
 github: https://github.com/erikcox
 about: Freelance developer
 
-baseurl: ""
-url: "http://ecox.rocks"
+baseurl: /erikcox.github.io
+url: http://ecox.rocks
 
 disqus_shortname: erikcox
 google_analytics: UA-61053689-1

@@ -14,7 +14,7 @@ Finally we'll tie everything together and do the logic for randomizing the month
 ## Create a string array xml
 
 Create a file called `string_array.xml` inside of `res > values`. This file will contain a `resources` tag that holds our `string-array` and each month will be stored in an `item` tag.
-
+{% highlight xml %}
     <resources>
         <string-array name="months">
             <item>January</item>
@@ -31,11 +31,11 @@ Create a file called `string_array.xml` inside of `res > values`. This file will
             <item>December</item>
         </string-array>
     </resources>
-
+{% endhighlight %}
 ## strings.xml
 
 In the `res > values > strings.xml` lets set the text label for the button to make it easy to change.
-
+{% highlight xml %}
 `<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">RandomMonth</string>
@@ -43,11 +43,11 @@ In the `res > values > strings.xml` lets set the text label for the button to ma
     <string name="text1"></string>
 </resources>
 `
-
+{% endhighlight %}
 ## Layout
 
 The layout will be pretty straightforward. We are going to use a TextView as a container to store the colored month text. The button will pull it's label text from `strings.xml` and will reference an `onClick` method that we'll write in our  activity.
-
+{% highlight xml %}
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
@@ -68,7 +68,7 @@ The layout will be pretty straightforward. We are going to use a TextView as a c
             android:text="@string/button_text"
             android:onClick="pushMe" />
     </LinearLayout>
-
+{% endhighlight %}
 ## RandomMonthActivity.java
 
 In our main activity, we'll set the logic for the random month, color, and button behavior. For the color we'll be using `android.graphics.color`.
@@ -76,7 +76,7 @@ In our main activity, we'll set the logic for the random month, color, and butto
 For example, `color.rgb(int r, int g, int b)` which is a static method that uses values 0-255 for colors.
 
 To choose the colors and month we'll use `Math.random()`.
-
+{% highlight java %}
     public class RandomMonthActivity extends Activity
     {
         Button btn;    
@@ -103,5 +103,5 @@ To choose the colors and month we'll use `Math.random()`.
             });
         }
     }
-
+{% endhighlight %}
 {% include twitter_plug.html %}

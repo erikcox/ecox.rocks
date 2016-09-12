@@ -1,0 +1,31 @@
+[
+	{
+		"name": "PS-GO",
+		"image": "psf.png",
+		"url": "http://ecox.rocks/psgo/",
+		"date": "September 2016",
+		"tags": ["Google Chrome Extension","JavaScript"]
+	},
+	{
+		"name": "CCSF Library statistics",
+		"image": "ccsf_stats.png",
+		"url": "https://github.com/erikcox/CCSF-Library-statistics",
+		"date": "May 2016",
+		"tags": ["Python","matplotlib", "numpy"]
+	},
+	{
+		"name": "DroidDocs",
+		"image": "droid_docs.png",
+		"url": "https://github.com/erikcox/DroidDocs",
+		"date": "Nov 2015",
+		"tags": ["Android"]
+	},
+	{
+		"name": "cheat",
+		"image": "cheat.png",
+		"url": "https://github.com/erikcox/cheat",
+		"date": "Sept 2014",
+		"tags": ["Python", "command-line"]
+	}
+
+]

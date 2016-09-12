@@ -18,7 +18,7 @@ First off, we need a place to store our images. Inside Android Studio, this is d
 Start off by putting 9 or so images into the `/res/drawable-mdpi` folder and naming them `img1.jpg` ... `img9.jpg`.
 
 Next create a `activity_gallery` layout with a `TableLayout` that will hold our two buttons, `prevButton` and `nextButton`, plus an `ImageView`. The ImageView is a container that will display the image on screen.
-
+{% highlight xml %}
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
@@ -56,9 +56,9 @@ Next create a `activity_gallery` layout with a `TableLayout` that will hold our 
         android:layout_height="match_parent" />
 
 </TableLayout>
-
+{% endhighlight %}
 To create a simple array of the names of our images, create an xml file named `arrays.xml` inside the `/res/values/` folder.
-
+{% highlight xml %}
    <resources>
 
     <string-array name="img_array">
@@ -74,11 +74,11 @@ To create a simple array of the names of our images, create an xml file named `a
     </string-array>
 
 </resources>
-
+{% endhighlight %}
 The `@drawable` is a reference to the drawable folder. It doesn't matter that they images are inside `drawable-mdpi`, the system will know where to find them.
 
 Create an activity named `GalleryActivity`. Here we will tell the buttons what to do, create an array to track which images to display, and display them on the screen.
-
+{% highlight java %}
     public class GalleryActivity extends Activity //implements View.OnClickListener
     {
 
@@ -141,5 +141,6 @@ Create an activity named `GalleryActivity`. Here we will tell the buttons what t
         }
     }
     }
+{% endhighlight %}
 
 {% include twitter_plug.html %}

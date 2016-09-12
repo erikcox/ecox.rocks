@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: default
 title: About Me
 permalink: /about/
-published: true
 ---
-
-
 
 ## I am a full stack developer and a recent software engineering grad, living in San Francisco, currently seeking a product management position.
 
@@ -27,4 +24,3 @@ Born and raised in the San Francisco Bay Area, I am an experienced full-stack de
 * Linkedin: [linkedin.com/in/erikbcox](https://www.linkedin.com/in/erikbcox)
 * Twitter [@erikerik](https://twitter.com/erikerik)
 * Email: [erikbcox@gmail.com](mailto:erikbcox@gmail.com)
-

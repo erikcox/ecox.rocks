@@ -9,12 +9,13 @@ published: true
 In this application we are going to build a simple temperature converter. It will calculate to two decimal places.
 
 For reference, here are the forumala's needed.
-
+{% highlight java %}
       C = 5.0 / 9.0 (F-32)
       F = (9.0./5.0) * C + 32
-      
-In order to accomplish this we are going to build an activity named `TemperatureActivity` and a layout called `activity_temperature`. The layout will contain an EditText for numerical input that has hint text to explain to the user what's expected and will take decimal numbers.
+{% endhighlight %}
 
+In order to accomplish this we are going to build an activity named `TemperatureActivity` and a layout called `activity_temperature`. The layout will contain an EditText for numerical input that has hint text to explain to the user what's expected and will take decimal numbers.
+{% highlight xml %}
       <EditText
         android:id="@+id/inputText"
         android:layout_width="fill_parent"
@@ -23,9 +24,10 @@ In order to accomplish this we are going to build an activity named `Temperature
         android:inputType="numberSigned|numberDecimal"
         android:textColor="@android:color/black"
         android:hint="Enter a temperature" />
-        
-Next, create a `RadioGroup` with two `RadioButton`'s so the user can choose the temperature to convert to.
+{% endhighlight %}
 
+Next, create a `RadioGroup` with two `RadioButton`'s so the user can choose the temperature to convert to.
+{% highlight xml %}
       <RadioGroup
         android:id="@+id/unitChoice"
         android:layout_width="match_parent"
@@ -49,18 +51,18 @@ Next, create a `RadioGroup` with two `RadioButton`'s so the user can choose the 
             android:checked="false"/>
 
     </RadioGroup>
-    
+{%endhighlight %}
 Now we'll create a `convert` button with an `onClick` property on it.
-
+{% highlight xml %}
       <Button
         android:id="@+id/convertButton"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/buttonText"
         android:onClick="onClick" />
-        
+{% endhighlight %}
 Lastly, we need a place to display our result. We can do this in a simple `TextView`.
-
+{% highlight xml %}
       <TextView
         android:id="@+id/convertedValueText"
         android:layout_width="fill_parent"
@@ -69,9 +71,9 @@ Lastly, we need a place to display our result. We can do this in a simple `TextV
         android:textSize="20sp"
         android:text="@string/resultText"
         android:paddingTop="20sp" />
-        
+{% endhighlight %}
 Now that we have everything laid out, let's go back to `TemperatureActivity` and wire everything together.
-
+{% highlight java %}
     public class TemperatureActivity extends Activity
     {
 
@@ -88,9 +90,9 @@ Now that we have everything laid out, let's go back to `TemperatureActivity` and
         final String result = getResources().getString(R.string.resultText);
         final String errorText = getResources().getString(R.string.errorText);
         final Context con = getApplicationContext();
-
+{% endhighlight %}
 Now we can make an `onClickListener` that calls one of two methods to convert the given temperature based on the radio button. It also does some error checking and displays a `Toast` to give the user some feedback if they've done something wrong. Finally, if everything is entered properly, the converted value gets stored to the `TextView`.
-
+{% highlight java %}
     btn.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
@@ -119,9 +121,9 @@ Now we can make an `onClickListener` that calls one of two methods to convert th
             }
         });
     }
-    
-Lastly, here are the two conversion methods based on the formula given above. 
-
+{% endhighlight %}
+Lastly, here are the two conversion methods based on the formula given above.
+{% highlight xml %}
     private float fahrenheitToCelsius(float f) {
         DecimalFormat df2 = new DecimalFormat("###.##");
         return Float.valueOf(df2.format(((f - 32) * 5 / 9)));
@@ -131,6 +133,5 @@ Lastly, here are the two conversion methods based on the formula given above.
         DecimalFormat df2 = new DecimalFormat("###.##");
         return Float.valueOf(df2.format(((c * 9) / 5) + 32)) ;
     }
-    }
-
+{% endhighlight %}
 {% include twitter_plug.html %}

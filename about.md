@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-## I am a full stack developer and a recent software engineering grad, living in San Francisco, currently seeking a product management position.
+## I am a full stack developer and a recent software engineering grad, living in San Francisco.
 
 Born and raised in the San Francisco Bay Area, I am an experienced full-stack developer and recent software engineering grad of Notre Dame de Namur University. I have experience with front-end and back-end web development, mobile development, SQL, ETL, advertising, and product management.
 

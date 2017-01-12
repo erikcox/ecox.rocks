@@ -1,0 +1,20 @@
+---
+layout: post
+title: Drawing circles
+published: true
+---
+![Photo album](../images/circles.jpg)
+
+Make an app that draws circles of a random size, color, and position. It has to store circles info in an array and have a generate and clear button
+Store circles in an ArrayList. Advanced method: use double buffering.
+
+Working with graphics requires separate classes that have nothing to do with activity. Ex) DrawCircle class.
+They should extend View.
+
+{% highlight xml %}
+{% endhighlight %}
+
+{% highlight java %}
+{% endhighlight %}
+
+{% include twitter_plug.html %}

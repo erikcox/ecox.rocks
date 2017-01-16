@@ -16,3 +16,4 @@ end
 gem 'uglifier', '3.0.2'
 gem 'sass', '3.4.22'
 gem 'autoprefixer-rails', '6.5.0.2'
+gem 's3_website'

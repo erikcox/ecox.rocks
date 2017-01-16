@@ -9,4 +9,3 @@ Rakefile
 *.log
 *.idea
 deploy.sh
-s3_website.yml

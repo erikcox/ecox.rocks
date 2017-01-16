@@ -1,0 +1,19 @@
+s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+s3_bucket: ecox.rocks
+oudfront_distribution_id: E3GSP3NG6KPS60
+
+cloudfront_distribution_config:
+  default_cache_behavior:
+    min_TTL: <%= 60 * 60 * 24 %>
+
+cloudfront_invalidate_root: true
+
+max_age:
+  "assets/*": 6000
+  "*": 300
+
+gzip:
+  - .html
+  - .css
+  - .md

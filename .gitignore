@@ -1,0 +1,12 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+.DS_Store
+.jekyll
+.bundle
+.sass-cache
+Rakefile
+*.log
+*.idea
+deploy.sh
+s3_website.yml

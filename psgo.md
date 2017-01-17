@@ -58,7 +58,7 @@ Navigate to directory you installed PS-Go and click Open.
 Authors
 -------------------------
 
-* Created by [Erik Cox](http://ecox.rocks/about/)
+* Created by [Erik Cox](https://ecox.rocks/about/)
 
 License
 -------------------------

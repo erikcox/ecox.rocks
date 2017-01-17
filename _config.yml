@@ -1,12 +1,12 @@
 title: Erik Cox
 description: My Personal Website
 author: Erik Cox
-logo: http://i.imgur.com/XwHr5HA.jpg
+logo: https://i.imgur.com/XwHr5HA.jpg
 github: https://github.com/erikcox
 about: Freelance developer
 
 baseurl:
-url: http://ecox.rocks
+url: https://ecox.rocks
 
 disqus_shortname: erikcox
 google_analytics: UA-61053689-1

@@ -9,7 +9,7 @@
 	{
 		"name": "PS-GO",
 		"image": "psf.png",
-		"url": "http://ecox.rocks/psgo/",
+		"url": "https://ecox.rocks/psgo/",
 		"date": "Sept 2016",
 		"tags": ["Google Chrome Extension","JavaScript"]
 	},

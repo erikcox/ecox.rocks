@@ -17,7 +17,7 @@
   },
   {
     "text": "Resume",
-    "url": "http://ecox.rocks/Erik_Cox_Resume.pdf",
+    "url": "https://ecox.rocks/Erik_Cox_Resume.pdf",
     "icon": "fa-graduation-cap",
     "layout": "post"
   },
@@ -30,6 +30,6 @@
     "text": "XML Feed",
     "url": "/feed.xml",
     "icon": "fa-feed",
-    "target": _blank
+    "target": "_blank"
   }
 ]

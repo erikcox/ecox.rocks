@@ -10,3 +10,4 @@ Rakefile
 *.idea
 deploy.sh
 .dropbox
+vendor/

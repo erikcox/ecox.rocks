@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Punchlist",
-		"image": "walkthrough.gif",
-		"url": "https://github.com/erikcox/Punchlist",
-		"date": "Sept 2016",
+		"name": "DP Challenges",
+		"image": "dp_challenge.gif",
+		"url": "https://github.com/erikcox/dailyprogrammerchallenges",
+		"date": "Aug 2017",
 		"tags": ["Android"]
 	},
 	{
@@ -21,6 +21,13 @@
 		"tags": ["Python","matplotlib", "numpy"]
 	},
 	{
+		"name": "cheat",
+		"image": "cheat.png",
+		"url": "https://github.com/erikcox/cheat",
+		"date": "Sept 2014",
+		"tags": ["Python", "command-line"]
+	},
+	{
 		"name": "DroidDocs",
 		"image": "droid_docs.png",
 		"url": "https://github.com/erikcox/DroidDocs",
@@ -28,10 +35,10 @@
 		"tags": ["Android"]
 	},
 	{
-		"name": "cheat",
-		"image": "cheat.png",
-		"url": "https://github.com/erikcox/cheat",
-		"date": "Sept 2014",
-		"tags": ["Python", "command-line"]
+		"name": "Punchlist",
+		"image": "walkthrough.gif",
+		"url": "https://github.com/erikcox/Punchlist",
+		"date": "Sept 2016",
+		"tags": ["Android"]
 	}
 ]

@@ -4,9 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-## I am a full stack developer and a recent software engineering grad, living in San Francisco.
+## I am a Full Stack Web & Mobile Developer from San Francisco.
 
-Born and raised in the San Francisco Bay Area, I am an experienced full-stack developer and recent software engineering grad of Notre Dame de Namur University. I have experience with front-end and back-end web development, mobile development, SQL, ETL, advertising, and product management.
+Born and raised in the San Francisco Bay Area, I am an experienced Full Stack Web Developer. I have experience with front-end and back-end web development, native Android development, SQL, Java, and Python.
+
+My passions are technology, cars, and coffee.
 
 ### [My resume]({{site.baseurl}}/Erik_Cox_Resume.pdf){:target="_blank"}
 
